@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Triangle Quiz</title>
+    <link href="Style.css" rel="stylesheet">
+</head>
+<body class="container">
+    <nav class="navigation">
+        <h1 id="navHeading" >FUN  WITH  TRIANGLES 🔺</h1>
+        <ul>
+            <li class="list-Nav"><a class="link" href="/">Is Triangle?</a></li>
+            <li class="list-Nav"><a class="link" href="/TriangleQuiz.html">Quiz</a></li>
+            <li class="list-Nav"><a class="link" href="/CheckHypotenuse.html">Hypotenuse</a></li>
+            <li class="list-Nav"><a class="link" href="/AreaOfTriangle.html">Area Of Triangle</a></li>
+        </ul>
+    </nav>
+
+    <form class="form-Quiz">
+        <div class="question-container">
+            <p style="font-size: x-large;"><span style="font-weight: bold;"> Question1: </span> What is the third angle for the triangle where angle1= 45° and angle2= 45°?</p>
+            <label class="quiz-label"><input type="radio" name="answer1" value="45°" class="quiz-label"> 45°</label>
+            <label class="quiz-label"><input type="radio" name="answer1" value="60°" class="quiz-label"> 60°</label>
+            <label class="quiz-label"><input type="radio" name="answer1" value="90°" class="quiz-label"> 90°</label>
+        </div>
+
+        <div class="question-container">
+            <p style="font-size: x-large;"><span style="font-weight: bold;">Question2: </span>If a triangle has an angle of 90 degrees, what is it called?</p>
+            <label class="quiz-label"><input type="radio" name="answer2" value="acute" class="quiz-label">  Acute</label>
+            <label class="quiz-label"><input type="radio" name="answer2" value="obtuse" class="quiz-label"> Obtuse</label>
+            <label class="quiz-label"><input type="radio" name="answer2" value="right angle" class="quiz-label"> Right Angle</label>
+        </div>
+        <div class="question-container">
+            <p style="font-size: x-large;"><span style="font-weight: bold;">Question3: </span>What do you call a triangle whose sides are all equal?</p>
+            <label class="quiz-label"><input type="radio" name="answer3" value="Equilateral" class="quiz-label"> Equilateral</label>
+            <label class="quiz-label"><input type="radio" name="answer3" value="Isosceles" class="quiz-label"> Isosceles</label>
+            <label class="quiz-label"><input type="radio" name="answer3" value="Scalene" class="quiz-label"> Scalene</label>
+        </div>
+    </form>
+    <button id="btn-Submit">Submit Answers</button>
+    <p class="resultOut" id="output"></p>
+    <script src="Quiz.js" type="text/javascript"></script>
+
+</body>
+</html>

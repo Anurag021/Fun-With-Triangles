@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Area Of Triangle</title>
+    <link href="Style.css" rel="stylesheet">
+</head>
+<body class="container">
+    <nav class="navigation">
+        <h1 id="navHeading" >FUN  WITH  TRIANGLES 🔺</h1>
+        <ul>
+            <li class="list-Nav"><a class="link" href="/">Is Triangle?</a></li>
+            <li class="list-Nav"><a class="link" href="/TriangleQuiz.html">Quiz</a></li>
+            <li class="list-Nav"><a class="link" href="/CheckHypotenuse.html">Hypotenuse</a></li>
+            <li class="list-Nav"><a class="link" href="/AreaOfTriangle.html">Area Of Triangle</a></li>
+        </ul>
+    </nav>
+    <div class="section">
+        <h1>Calculate Area Of Triangle</h1>
+        <label for="first-Side">Enter First Side Of Triangle:</label>
+        <input type="number" class="triangle-Side"> 
+        <label for="Second-Side">Enter Second Side Of Triangle:</label>
+        <input type="number" class="triangle-Side">
+        <label for="Third-Side">Enter Third Side Of Triangle:</label>
+        <input type="number" class="triangle-Side">
+        <button id="btn-CalcArea">Calculate Area</button>
+        <h2>Area Of Triangle Formula (Heron's Formula)</h2>
+        <h3>Area = √s(s-a)(s-b)(s-c)</h3>
+        <div class="resultOut" id="outputArea"></div>
+    <script src="TriangleArea.js" type="text/javascript"></script>
+    </div>  
+</body>
+</html>
+

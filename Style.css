@@ -1,7 +1,67 @@
-.sextion{
-    display: block;
-    margin: auto;
+@import url('https://fonts.googleapis.com/css2?family=Carattere&family=Cherish&display=swap');
+
+:root{
+    --primary-color: #0D9488;
+    --general-color: #CCFBF1;
+    --secondary-color: rgb(97, 3, 3);
 }
+
+.container{
+    text-align: center;
+    display: block;
+    background-color: var(--general-color);
+}
+
 input,label{
     display: block;
+    font-weight: bold;
+    margin: 0 auto;
+    font-size:larger;
+    padding: 0.3rem;
+    border-width: medium;
+    border-color: var(--secondary-color);
+}
+.quiz-label{
+    display:inline ;
+}
+button{
+    padding: 0.7rem;
+    background-color: var(--primary-color);
+    margin-top: 10px;
+    border-color: black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+}
+.resultOut{
+    font-family: cursive;
+    font-weight: bolder;
+    font-size: xx-large;
+    color: var(--secondary-color);
+}
+
+#navHeading{
+    font-family: 'Cherish', cursive;
+    font-size:2.5rem;
+}
+.navigation{
+    background-color: var(--primary-color);
+    padding-top: 1px;
+    padding-bottom: 1px;
+    height: 160px;
+}
+.list-Nav{
+    display: inline;
+    padding: 0.5rem;
+    font-family: cursive;
+    text-align: center;
+}
+.list{
+    text-align: center;
+    color: black;
+}
+.link{
+    color: var(--secondary-color);
+    font-size: 1.5rem;
+}
+.section{
+    color: var(--secondary-color);
 }
